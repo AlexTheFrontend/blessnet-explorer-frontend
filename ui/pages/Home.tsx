@@ -38,6 +38,7 @@ const Home = () => {
                 fontWeight={{ base: 500, lg: 700 }}
                 color={ config.UI.homepage.plate.textColor }
                 paddingLeft={ 2 }
+                fontFamily='"Nunito", sans-serif'
               >
                   Blessnet scan
               </Heading>
