@@ -9,6 +9,7 @@ const global = (props: StyleFunctionProps) => ({
   body: {
     bg: mode('white', 'black')(props),
     ...getDefaultTransitionProps(),
+    fontFamily: '"Nunito", sans-serif',
     '-webkit-tap-highlight-color': 'transparent',
     'font-variant-ligatures': 'no-contextual',
   },
